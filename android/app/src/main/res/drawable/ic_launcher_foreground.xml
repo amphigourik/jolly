@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Jumping Race eyes: dark half-moons with the LEDs punched through. Source: logo/jolly-icon.svg -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group android:translateX="37" android:translateY="55" android:rotation="-165">
+        <path android:fillColor="#1E2126" android:pathData="M-15,0 A15,8.5 0 0 0 15,0 Z" />
+        <path android:fillColor="#D4FF1E" android:pathData="M-3.4,3.6 a3.4,3.4 0 1 0 6.8,0 a3.4,3.4 0 1 0 -6.8,0 Z" />
+    </group>
+    <group android:translateX="71" android:translateY="55" android:rotation="165">
+        <path android:fillColor="#1E2126" android:pathData="M-15,0 A15,8.5 0 0 0 15,0 Z" />
+        <path android:fillColor="#D4FF1E" android:pathData="M-3.4,3.6 a3.4,3.4 0 1 0 6.8,0 a3.4,3.4 0 1 0 -6.8,0 Z" />
+    </group>
+</vector>

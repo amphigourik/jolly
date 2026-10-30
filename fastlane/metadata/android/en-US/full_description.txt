@@ -1,0 +1,24 @@
+Jolly is a controller for Parrot Jumping robots: Jumping Sumo, Jumping Race and Jumping Night.
+
+Parrot's official app only ships 32-bit native code, so it no longer installs on recent 64-bit-only
+phones. Jolly re-implements the robot's open ARSDK3 protocol in pure Kotlin, with no native code and
+no Parrot SDK.
+
+<b>Features</b>
+<ul>
+<li>Live video, photos and MP4 recording to the phone's gallery</li>
+<li>Touch joysticks, long and high jumps, postures and the 9 built-in animations</li>
+<li>Bluetooth gamepads: ready-made presets, fully remappable, rumble</li>
+<li>Max speed, turn sensitivity, progressive steering, jumps lock and a kid mode</li>
+<li>Drone info: name, firmware, battery, Wi-Fi signal, link quality</li>
+<li>Auto-reconnect, sound volume, rename the drone</li>
+</ul>
+
+Tested on a Jumping Race Max (firmware 2.1.77). Other models use the same protocol family but are
+untested: reports are welcome.
+
+Location permission: Android requires it to list nearby Wi-Fi networks so Jolly can find the robot.
+Jolly never reads your location.
+
+Not affiliated with, endorsed by or sponsored by Parrot. "Parrot", "Jumping Sumo", "Jumping Race" and
+"Jumping Night" are trademarks of their respective owners.
